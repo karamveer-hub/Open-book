@@ -1,0 +1,171 @@
+*{
+    transition: 0.5s !important;
+    box-sizing: border-box;
+}
+H1{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* perspective: 1900px; */
+    /* transform-style: preserve-3d;  */
+
+}
+.main-box{
+    /* position: relative; */
+    /* margin-top: 50px; */
+    /* border: 2px solid navy; */
+    /* border-right:4px solid darkblue; */
+    width: 780px;
+    height: 580px;
+    perspective: 1000px;
+    /* transform-style: preserve-3d; */
+ 
+}
+.button-div{
+    position: absolute;
+    margin-left: 390px;
+    width: 390px;
+    background-color:red;
+    height: 560px;
+    transform-style: preserve-3d;
+    transform: rotateZ(0deg) rotateY(0deg) rotateX(0deg);
+    border: 2px solid white;
+    border-left: 6px dotted black;
+    border-top: 1px solid white;
+   
+}
+
+.button-div2{
+    position: absolute;
+    margin-left: 390px;
+    width: 390px;
+    background-color:blue;
+    height: 560px;
+    transform-style: preserve-3d;
+    transform: rotateZ(0deg) rotateY(0deg) rotateX(0deg) ;
+    z-index: -1;
+    border: 2px solid white;
+    border-left: 6px dotted black;
+    border-top: 1px solid white;
+}
+.button-div3{
+    position: absolute;
+    margin-left: 390px;
+    width: 390px;
+    background-color:cyan;
+    height: 560px;
+    transform-style: preserve-3d;
+    transform: rotateZ(0deg) rotateY(0deg) rotateX(0deg) ;
+    z-index: -2;
+    border: 2px solid white;
+    border-left: 6px dotted black;
+    border-top: 1px solid white;
+
+}
+/* .clicked{
+    margin-left: 0px;
+    transition: 1s;
+    transform: rotateZ(0) rotateY(-180deg) rotateX(0);
+} */
+
+.inner-box{
+    position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ backface-visibility: hidden;
+    background-image: url('aquaman.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   -webkit-transform-origin: left left  ;
+}
+.inner-box3{
+    position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ backface-visibility: hidden;
+    /* margin-left: 140px; */
+
+    background-image: url('superman.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transform-origin: center right ;
+    /* z-index: -3; */
+}
+.inner-box5{
+    position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ backface-visibility: hidden;
+    /* margin-left: 140px; */
+
+    background-image: url('batman.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform-origin: left center;
+    /* z-index: -3; */
+}
+.inner-box2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  background: url('nobita.jpeg');
+  /* background-color: yellow; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform-origin: bottom;
+    z-index: -2;
+    /* transform: rotateZ(30deg); */
+}
+.inner-box4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+  background: url('doraemon.png');
+  /* background-color: yellow; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform-origin: left center;
+    z-index: -4;
+    /* transform: rotateZ(30deg); */
+}
+.inner-box6{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+  background: url('doraemon.png');
+  /* background-color: yellow; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform-origin: left center;
+    z-index: -6;
+    /* transform: rotateZ(30deg); */
+}
